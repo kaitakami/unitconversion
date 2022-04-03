@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;700;800;900&family=Space+Mono:wght@400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Inter', monospace;
+    background-color: #1F2937;
+}
+
+.first-container {
+    background-image: linear-gradient(
+    235deg,
+    hsl(226deg 51% 19%) 0%,
+    hsl(225deg 53% 23%) 11%,
+    hsl(224deg 54% 27%) 22%,
+    hsl(224deg 55% 31%) 33%,
+    hsl(224deg 56% 35%) 44%,
+    hsl(223deg 57% 39%) 56%,
+    hsl(223deg 58% 43%) 67%,
+    hsl(223deg 58% 47%) 78%,
+    hsl(223deg 61% 51%) 89%,
+    hsl(223deg 73% 56%) 100%
+    );
+    background-repeat: no-repeat;
+}
+
+.title {
+    padding: 40px 0 20px 0;
+    margin: 0px 30px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.main-number {
+    font-size: 5rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.text {
+    margin: 0;
+}
+
+.subtitle {
+    padding: 30px 0px 20px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.result-text {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.result-text:last-child {
+    padding-bottom: 4rem;
+}
